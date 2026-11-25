@@ -82,7 +82,19 @@ Key design decisions:
 
 ## Screenshots
 
-Add images from the [`screenshots/`](screenshots) folder here.
+Taken from the develop environment with test data (client names are covered).
+
+### Photographer app (Android)
+
+| Home | New booking | Notifications | Gallery archive |
+|---|---|---|---|
+| <img src="screenshots/mobile-home.jpg" width="200"> | <img src="screenshots/mobile-new-booking.jpg" width="200"> | <img src="screenshots/mobile-notifications.jpg" width="200"> | <img src="screenshots/mobile-archive.jpg" width="200"> |
+
+### Studio web (light theme)
+
+| Gallery | Archive |
+|---|---|
+| <img src="screenshots/web-studio-gallery.jpg" width="260"> | <img src="screenshots/web-studio-archive.jpg" width="260"> |
 
 ## Status
 
