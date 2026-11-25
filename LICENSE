@@ -1,0 +1,41 @@
+PhotoSense Studio - Proprietary License
+
+Copyright (c) 2026 PhotoSense Studio. All rights reserved.
+
+This repository (a showcase of a private project) is visible for reference only. It is NOT
+open-source software. No license is granted to you except as stated below.
+
+1. Permitted use. You may view the source code and clone it to read it
+   locally. GitHub's Terms of Service additionally allow you to view and fork
+   this repository within the GitHub platform.
+
+2. Restrictions. Without prior written permission from the copyright holder
+   you may NOT:
+   a. use, run, or deploy the software or any part of it, for personal,
+      internal, or commercial purposes;
+   b. copy, modify, adapt, translate, or create derivative works of it;
+   c. distribute, sublicense, sell, rent, lease, or otherwise make it
+      available to third parties, whether as source code, as a hosted
+      service (SaaS), or as part of another product;
+   d. use the name "PhotoSense Studio", its logo, its brand assets, or its
+      domains (including photosensestudio.com) in any way that suggests
+      affiliation or endorsement;
+   e. use the code, documentation, or data to train machine-learning models
+      without permission.
+
+3. Third-party components. The project depends on third-party open-source
+   packages that remain under their own licenses. This license does not
+   change those terms.
+
+4. No warranty. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+   KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+   NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR
+   OTHER LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE
+   OR ITS USE.
+
+5. Termination. Any use outside this license terminates the permissions
+   above automatically.
+
+To request a commercial license or any other permission, contact the
+copyright holder through the repository owner's GitHub profile.
