@@ -96,6 +96,15 @@ Taken from the develop environment with test data (client names are covered).
 |---|---|
 | <img src="screenshots/web-studio-gallery.jpg" width="260"> | <img src="screenshots/web-studio-archive.jpg" width="260"> |
 
+## How it is built: AI-assisted development
+
+Most of this project was implemented with **AI-assisted development using [Claude Code](https://claude.com/claude-code)**. The human role is the product and engineering direction; the assistant does much of the typing.
+
+- **Decisions stay human:** product rules (booking states, deposits, cancellation and refund policies), architecture, security model, and trade-offs are decided and reviewed by the author before they are implemented.
+- **Written rules guide the assistant:** a project instruction file records the architecture, naming, layering, and testing conventions (for example: no  in TypeScript, no database types in the domain layer, every public member documented), so the output follows the same standards across sessions.
+- **Quality gates, not trust:** every change goes through a pull request and CI (build with warnings as errors, backend tests against a real MongoDB, type checking, linting, and mobile and web test suites). Business-rule tests cover the state machines and edge cases.
+- **Reviewed, not pasted:** changes are read, questioned, and corrected; security-sensitive areas (authentication, tokens, rate limiting, tenant isolation) get explicit review and tests.
+
 ## Status
 
 Backend, mobile app, and web portal are implemented and running in a develop environment. Production launch, iOS builds, and invoicing are pending.
